@@ -237,6 +237,7 @@ func (p *BloxOneProvider) DataSources(ctx context.Context) []func() datasource.D
 		ipamfederation.NewFederatedRealmDataSource,
 		ipamfederation.NewFederatedBlockDataSource,
 		ipamfederation.NewForwardLookingDelegationDataSource,
+		ipamfederation.NewNextAvailableForwardLookingDelegationDataSource,
 
 		redirect.NewCustomRedirectsDataSource,
 
